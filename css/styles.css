@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+
+*:link, *:visited {
+  text-decoration: none;
+  color: rgb(0, 178, 255);
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: rgb(238, 238, 238);
+}
+
+h1, h2 {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+}
+
+header {
+  padding-bottom: 2px;
+}
+
+header > h1 {
+  margin-bottom: 0px;
+}
+
+header > p {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 1.1em;
+}
+
+nav {
+  position: relative;
+  background: rgb(81, 81, 81);
+  border-bottom: solid 1px rgb(192, 192, 192);
+  padding: 0;
+  margin: 0;
+}
+
+#nav-home, #nav-contact {
+  display: inline-block;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+}
+
+#nav-home {
+  position: relative;
+  left: 2px;
+  font-size: 1.2em;
+  font-weight: normal;
+  text-align: left;
+}
+
+#nav-contact {
+  text-align: right;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+article {
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 10px 7px;
+  border: solid 1px rgb(192, 192, 192);
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+}
+
+article > h1 {
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+article > .subhead {
+  margin-top: 0px;
+  font-family: "PT Sans Caption";
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.toggle {
+  position: absolute;
+  right: 5px;
+  bottom: 0px;
+  text-decoration: underline;
+}
+
+.tool-name {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+}
+
+.code {
+  font-family: "PT Mono", monospace;
+  font-size: 14px;
+}
+
+.comment {
+  color: #969896;
+}
+
+.key-word {
+  color: rgb(255, 76, 0);   
+}
+
+table.config td:nth-child(2) {
+    width: 25%;
+    min-width: 145px;
+}
+
+td {
+  padding-right: 10px;
+  font-size: 16px;
+  line-height: 20px;
+  vertical-align: top;
+}
+
+td.line-number {
+  font-family: "PT Mono", monospace;
+  width: 1%;
+  min-width: 20px;
+  color: #969896;
+  vertical-align: top;
+  text-align: right;
+  padding-left: 10px;
+}
+
+footer {
+  margin: 8px;
+  padding: 20px;
+  border-top: solid 1px rgb(192, 192, 192);
+  text-align: center;
+  font-size: 0.8em;
+}
+
+footer, footer > a:link {
+  color: rgb(100, 100, 100);
+}
+
+/* tablets, laptops... */
+@media (min-width: 768px) { 
+  nav > div {
+    width: 768px;
+    margin: auto;
+  }
+  
+  #nav-contact {
+    position: relative;
+    left: 614px;
+  }
+  
+  main {
+    max-width: 768px;
+    margin: auto;
+  }
+
+  td.line-number {
+    min-width: 50px;
+  }
+}
