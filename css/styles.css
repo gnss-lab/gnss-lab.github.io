@@ -110,7 +110,7 @@ article > .subhead {
   font-weight: bold;
 }
 
-.code {
+.code, .line-number {
   font-family: "PT Mono", monospace;
   font-size: 14px;
 }
@@ -124,8 +124,8 @@ article > .subhead {
 }
 
 table.config td:nth-child(2) {
-    width: 25%;
-    min-width: 145px;
+    width: 18%;
+    min-width: 100px;
 }
 
 td {
@@ -136,11 +136,9 @@ td {
 }
 
 td.line-number {
-  font-family: "PT Mono", monospace;
   width: 1%;
   min-width: 20px;
   color: #969896;
-  vertical-align: top;
   text-align: right;
   padding-left: 10px;
 }

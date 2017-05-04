@@ -76,7 +76,7 @@
         </ul>
         <p>For further details see <a href="http://tec-suite.readthedocs.io" target="_blank">the docs</a>.</p>
         <h2>Bugs</h2>
-        <p>Report any bugs via project's <a href="https://github.com/gnss-lab/tec-suite/issues" target="_blank">issue tracker</a>. Feel free to fork and play with the code. I will appreciate fixes and suggestions.</p>
+        <p>Report any bugs via project's <a href="https://github.com/gnss-lab/tec-suite/issues" target="_blank">issue tracker</a>. Feel free to fork and play with the code. We will appreciate fixes and suggestions.</p>
       </div>
       <a href="#tec-suite" class="toggle" onclick="toggleVisibility(this, 'tec-suite-description');">More...</a>
     </article>
@@ -84,9 +84,13 @@
       <h1>TayAbsTEC</h1>
       <p class="subhead">absolute total electron content value</p>
       <div id="abstec-description" class="hidden">
-        <p><span class="tool-name">TayAbsTEC</span> is software for calculation of the absolute vertical total electron content (TEC) in the ionosphere and differential code biases values. <span class="tool-name">TayAbsTEC</span> uses a slant TEC value derived from global navigation satellite systems data by <span class="tool-name">tec-suite</span>.</p>
+        <p><span class="tool-name">TayAbsTEC</span> is software for calculation of the absolute vertical total electron content (TEC) in the ionosphere and differential code biases (DCB) values. <span class="tool-name">TayAbsTEC</span> uses a slant TEC value derived from global navigation satellite systems data by <span class="tool-name">tec-suite</span>.</p>
         <h2>Installation</h2>
-        <p>Just download and extract <a href="files/TayAbsTEC_24.04.17.zip"><span class="tool-name">TayAbsTEC</span> archive</a> wherever you want (for Windows only yet).</p>
+        <p>Just download and extract <span class="tool-name">TayAbsTEC</span> archive wherever you want (for Windows only yet).</p>
+        <h3>Downloads</h3>
+        <ul>
+          <li><a href="files/TayAbsTEC_24.04.17.zip">Windows</a></li>
+        </ul>
         <h2>Usage</h2>
         <p><span class="tool-name">TayAbsTEC</span> takes <span class="tool-name">tec-suite</span> output files as an input. These files must contain the following data:</p>
         <ul>
@@ -105,8 +109,8 @@
             <td class="code"><span class="key-word">recFileds</span> = 'tsn, hour, el, az, tec.l1l2, tec.p1p2, validity'</td>
           </tr>
         </table>
-        <p>For further information see <span class="tool-name">tec-suite</span> <a href="">documentation.</a></p>
-        Once you get tec-suite out files, you can 
+        <p>For further information see <span class="tool-name">tec-suite</span> <a href="http://tec-suite.readthedocs.io" target="_blank">documentation</a>.</p>
+        Once you get <span class="tool-name">tec-suite</span> out files, you can 
         <ul>
           <li>Edit <span class="code">absolTEC.dia</span></li>
           <li>Run <span class="code">absolTEC.exe</span></li>
@@ -115,7 +119,7 @@
         <table class="config">
           <tr>
             <td class="line-number">1</td>
-            <td class="code key-word">c:\path\to\dat\</td>
+            <td class="code key-word">c:\dat\</td>
             <td class="code comment">path to .dat files, outputed by tec-suite</td>
           </tr>
           <tr>
@@ -146,11 +150,11 @@
           <tr>
             <td class="line-number">7</td>
             <td class="code key-word">0.97</td>
-            <td class="code comment">the correcting coefficient: 0.97 - for mid-latitude stations, 0.94 - for high-latitude stations, 0.87 - for low-latitude stations.</td>
+            <td class="code comment">the correcting coefficient: 0.97 - for mid-latitude stations, 0.94 - for high-latitude stations, 0.87 - for low-latitude stations</td>
           </tr>
         </table>
         <h3>Output</h3>
-        <p>You can find an output of <span class="tool-name">TayAbsTEC</span> in <span class="code">c:\path\to\dat\YYYY\SITE\SITE_DDD_YYYY.dat</span> files, where</p>
+        <p>You can find an output of <span class="tool-name">TayAbsTEC</span> in <span class="code">c:\dat\YYYY\SITE\SITE_DDD_YYYY.dat</span> files, where</p>
         
         <table class="config">
           <tr>
@@ -198,14 +202,14 @@
             <td>linear and quadratic time derivation in TECU/hour</td>
           </tr>
         </table>
-        <p><span class="code">c:\path\to\dat\YYYY\SITE\DCB_SITE_DDD_YYYY.dat</span> contains DCBs for each satellite (DCB sat) and GPS/GLONASS receiver channel (DCB rec) measured in TECU.</p>
+        <p><span class="code">c:\dat\YYYY\SITE\DCB_SITE_DDD_YYYY.dat</span> contains DCBs for each satellite (DCB sat) and GPS/GLONASS receiver channel (DCB rec) measured in TECU.</p>
         <p>Please note, that free online access to acquired data is arranged only for educational and non-commercial research purposes.</p>
         <h2>Cite</h2>
         <p>Should a scientific publication evolve from the conducted estimation from <span class="tool-name">TayAbsTEC</span> software, the authors are requested to include citation of following publications, where <span class="tool-name">TayAbsTEC</span> algorithm is described:</p>
         <ul>
-            <li>Yu V. Yasyukevich, A.A. Mylnikova, V.E. Kunitsyn, and A.M. Padokhin. Influence of gps/glonass differential code biases on the determination accuracy of the absolute total electron content in the ionosphere. Geomagnetism and Aeronomy, 55(6): 763–769, 2015. <a href="https://dx.doi.org/10.1134/S001679321506016X" target="_blank">doi:10.1134/S001679321506016X.</a></li>
-            <li>A.A. Mylnikova, Yu.V. Yasyukevich, V.E. Kunitsyn, A.M. Padokhin. Variability of GPS/GLONASS differential code biases // Results in Physics, V. 5, P. 9–10. 2015. <a href="https://dx.doi.org/10.1016/j.rinp.2014.11.002" target="_blank">doi:10.1016/j.rinp.2014.11.002.</a></li>
-            <li>Yu.V. Yasyukevich, A.A. Mylnikova, A.S. Polyakova. Estimating the total electron content absolute value from the GPS/GLONASS data // Results in Physics, V. 5, P. 32–33. 2015. <a href="https://dx.doi.org/10.1016/j.rinp.2014.12.006" target="_blank">doi:10.1016/j.rinp.2014.12.006.</li>
+            <li>Yu V. Yasyukevich, A.A. Mylnikova, V.E. Kunitsyn, and A.M. Padokhin. Influence of gps/glonass differential code biases on the determination accuracy of the absolute total electron content in the ionosphere. Geomagnetism and Aeronomy, 55(6): 763–769, 2015. <a href="https://dx.doi.org/10.1134/S001679321506016X" target="_blank">doi:10.1134/S001679321506016X</a>.</li>
+            <li>A.A. Mylnikova, Yu.V. Yasyukevich, V.E. Kunitsyn, A.M. Padokhin. Variability of GPS/GLONASS differential code biases // Results in Physics, V. 5, P. 9–10. 2015. <a href="https://dx.doi.org/10.1016/j.rinp.2014.11.002" target="_blank">doi:10.1016/j.rinp.2014.11.002</a>.</li>
+          <li>Yu.V. Yasyukevich, A.A. Mylnikova, A.S. Polyakova. Estimating the total electron content absolute value from the GPS/GLONASS data // Results in Physics, V. 5, P. 32–33. 2015. <a href="https://dx.doi.org/10.1016/j.rinp.2014.12.006" target="_blank">doi:10.1016/j.rinp.2014.12.006</a>.</li>
         </ul>
       </div>
       <a href="#abstec" class="toggle" onclick="toggleVisibility(this, 'abstec-description');">More...</a>
