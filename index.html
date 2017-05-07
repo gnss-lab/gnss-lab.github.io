@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/styles.css">
   <script src="js/scripts.js"></script>
   <link href="https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans:700|PT+Sans+Caption:700|PT+Mono" rel="stylesheet">
-  <title>GNSS lab</title>
+  <title>GNSS lab: tools for ionospheric researches</title>
 </head>
 
 <body>
@@ -33,7 +33,7 @@
               <li>GLONASS</li>
               <li>Galileo</li>
               <li>Compass/BeiDou</li>
-              <li>GEO</li>
+              <li>GEO (SBAS)</li>
             </ul>
           </li>
           <li>RINEX versions:
@@ -58,7 +58,7 @@
         <h3>Downloads</h3>
         <ul>
           <li> <a href="https://github.com/gnss-lab/tec-suite/releases/download/v0.7.4/tec-suite-v0.7.4-win32.zip">Windows</a> </li>
-          <li> <a href="https://github.com/gnss-lab/tec-suite/releases/download/v0.7.4/tec-suite-v0.7.4-linux32.tgz">Linux</a> </li>
+          <li> Linux: <a href="https://github.com/gnss-lab/tec-suite/releases/download/v0.7.4/tec-suite-v0.7.4-linux32.tgz">x86_32</a> or <a href="https://github.com/gnss-lab/tec-suite/releases/download/v0.7.4/tec-suite-v0.7.4-linux64.tgz">x86_64</a> </li>
           <li> <a href="https://github.com/gnss-lab/tec-suite/releases/download/v0.7.4/tec-suite-v0.7.4-macos.tgz">macOS</a> </li>
         </ul>
         <h3>Requirements</h3>
@@ -77,6 +77,8 @@
         <p>For further details see <a href="http://tec-suite.readthedocs.io" target="_blank">the docs</a>.</p>
         <h2>Bugs</h2>
         <p>Report any bugs via project's <a href="https://github.com/gnss-lab/tec-suite/issues" target="_blank">issue tracker</a>. Feel free to fork and play with the code. We will appreciate fixes and suggestions.</p>
+        <h2>Author</h2>
+        <p>Copyright &copy; 2017 Ilya Zhivetiev <a href="mailto:i.zhivetiev@gnss-lab.org">&lt;i.zhivetiev@gnss-lab.org&gt;</a>.</p>
       </div>
       <a href="#tec-suite" class="toggle" onclick="toggleVisibility(this, 'tec-suite-description');">More...</a>
     </article>
@@ -120,7 +122,7 @@
           <tr>
             <td class="line-number">1</td>
             <td class="code key-word">c:\dat\</td>
-            <td class="code comment">path to .dat files, outputed by tec-suite</td>
+            <td class="code comment">path to .dat files, outputted by tec-suite</td>
           </tr>
           <tr>
             <td class="line-number">2</td>
@@ -205,14 +207,14 @@
         <p><span class="code">c:\dat\YYYY\SITE\DCB_SITE_DDD_YYYY.dat</span> contains DCBs for each satellite (DCB sat) and GPS/GLONASS receiver channel (DCB rec) measured in TECU.</p>
         <h2>Bugs</h2>
         <p>You can report bugs or suggestions via <a href="mailto:info@gnss-lab.org">email</a>.</p>
-        <h2>Cite</h2>
-        <p>Please note, that free online access to acquired data is arranged only for educational and non-commercial research purposes.</p>
+        <h2>Authors</h2>
         <p>Should a scientific publication evolve from the conducted estimation from <span class="tool-name">TayAbsTEC</span> software, the authors are requested to include citation of following publications, where <span class="tool-name">TayAbsTEC</span> algorithm is described:</p>
         <ul>
-            <li>Yu V. Yasyukevich, A.A. Mylnikova, V.E. Kunitsyn, and A.M. Padokhin. Influence of gps/glonass differential code biases on the determination accuracy of the absolute total electron content in the ionosphere. Geomagnetism and Aeronomy, 55(6): 763–769, 2015. <a href="https://dx.doi.org/10.1134/S001679321506016X" target="_blank">doi:10.1134/S001679321506016X</a>.</li>
+            <li>Yu V. Yasyukevich, A.A. Mylnikova, V.E. Kunitsyn, and A.M. Padokhin. Influence of GPS/GLONASS differential code biases on the determination accuracy of the absolute total electron content in the ionosphere. Geomagnetism and Aeronomy, 55(6): 763–769, 2015. <a href="https://dx.doi.org/10.1134/S001679321506016X" target="_blank">doi:10.1134/S001679321506016X</a>.</li>
             <li>A.A. Mylnikova, Yu.V. Yasyukevich, V.E. Kunitsyn, A.M. Padokhin. Variability of GPS/GLONASS differential code biases // Results in Physics, V. 5, P. 9–10. 2015. <a href="https://dx.doi.org/10.1016/j.rinp.2014.11.002" target="_blank">doi:10.1016/j.rinp.2014.11.002</a>.</li>
           <li>Yu.V. Yasyukevich, A.A. Mylnikova, A.S. Polyakova. Estimating the total electron content absolute value from the GPS/GLONASS data // Results in Physics, V. 5, P. 32–33. 2015. <a href="https://dx.doi.org/10.1016/j.rinp.2014.12.006" target="_blank">doi:10.1016/j.rinp.2014.12.006</a>.</li>
         </ul>
+        <p>Please note, that free online access to acquired data is arranged only for educational and non-commercial research purposes.</p>
       </div>
       <a href="#abstec" class="toggle" onclick="toggleVisibility(this, 'abstec-description');">More...</a>
     </article>
