@@ -78,7 +78,7 @@
         <h2>Bugs</h2>
         <p>Report any bugs via project's <a href="https://github.com/gnss-lab/tec-suite/issues" target="_blank">issue tracker</a>. Feel free to fork and play with the code. We will appreciate fixes and suggestions.</p>
         <h2>Author</h2>
-        <p>Copyright &copy; 2017 Ilya Zhivetiev <a href="mailto:i.zhivetiev@gnss-lab.org">&lt;i.zhivetiev@gnss-lab.org&gt;</a>.</p>
+        <p>Copyright &copy; 2017 Ilya Zhivetiev &lt;<a href="mailto:i.zhivetiev@gnss-lab.org">i.zhivetiev@gnss-lab.org</a>&gt;.</p>
       </div>
       <a href="#tec-suite" class="toggle" onclick="toggleVisibility(this, 'tec-suite-description');">More...</a>
     </article>
@@ -156,26 +156,25 @@
           </tr>
         </table>
         <h3>Output</h3>
-        <p>You can find an output of <span class="tool-name">TayAbsTEC</span> in <span class="code">c:\dat\YYYY\SITE\SITE_DDD_YYYY.dat</span> files, where</p>
-        
+        <p>You can find an output of <span class="tool-name">TayAbsTEC</span> in a directory three which looks like <span class="code">c:\dat\YYYY\SITE</span>, where</p>
         <table class="config">
+          </tr>
+            <td class="line-number"></td>
+            <td><span class="code">YYYY</span></td>
+            <td>year</td>
+          </tr>
           <tr>
             <td class="line-number"></td>
             <td><span class="code">SITE</span></td>
             <td>name of station</td>
           </tr>
-          <tr>
-            <td class="line-number"></td>
-            <td><span class="code">DDD</span></td>
-            <td>day of year</td>
-          </tr>
-          <tr>
-            <td class="line-number"></td>
-            <td><span class="code">YYYY</span></td>
-            <td>year</td>
-          </tr>
         </table> 
-        
+        <p>There are two kinds of files in the directory:</p> 
+        <ul>
+            <li><span class="code">SITE_DDD_YYYY.dat</span></li>
+            <li><span class="code">DCB_SITE_DDD_YYYY.dat</span></li>
+        </ul>
+        <p>And <span class="code">DDD</span> here it is a day of year.</p> 
         <p>In <span class="code">SITE_DDD_YYYY.dat</span> you find the following values:</p> 
         <table class="config">
           <tr>
@@ -204,16 +203,24 @@
             <td>linear and quadratic time derivation in TECU/hour</td>
           </tr>
         </table>
-        <p><span class="code">c:\dat\YYYY\SITE\DCB_SITE_DDD_YYYY.dat</span> contains DCBs for each satellite (DCB sat) and GPS/GLONASS receiver channel (DCB rec) measured in TECU.</p>
+        <p><span class="code">DCB_SITE_DDD_YYYY.dat</span> files contain DCBs for each satellite (DCB sat) and GPS/GLONASS receiver channel (DCB rec) measured in TECU.</p>
         <h2>Bugs</h2>
-        <p>You can report bugs or suggestions via <a href="mailto:info@gnss-lab.org">email</a>.</p>
+        <p>You can report bugs or suggestions via email 
+         &lt;<a href="mailto:manna@iszf.irk.ru">manna@iszf.irk.ru</a>&gt;.
+        </p>
         <h2>Authors</h2>
         <p>Should a scientific publication evolve from the conducted estimation from <span class="tool-name">TayAbsTEC</span> software, the authors are requested to include citation of following publications, where <span class="tool-name">TayAbsTEC</span> algorithm is described:</p>
         <ul>
-            <li>Yu V. Yasyukevich, A.A. Mylnikova, V.E. Kunitsyn, and A.M. Padokhin. Influence of GPS/GLONASS differential code biases on the determination accuracy of the absolute total electron content in the ionosphere. Geomagnetism and Aeronomy, 55(6): 763–769, 2015. <a href="https://dx.doi.org/10.1134/S001679321506016X" target="_blank">doi:10.1134/S001679321506016X</a>.</li>
-            <li>A.A. Mylnikova, Yu.V. Yasyukevich, V.E. Kunitsyn, A.M. Padokhin. Variability of GPS/GLONASS differential code biases // Results in Physics, V. 5, P. 9–10. 2015. <a href="https://dx.doi.org/10.1016/j.rinp.2014.11.002" target="_blank">doi:10.1016/j.rinp.2014.11.002</a>.</li>
+          <li>Yu V. Yasyukevich, A.A. Mylnikova, V.E. Kunitsyn, and A.M. Padokhin. Influence of GPS/GLONASS differential code biases on the determination accuracy of the absolute total electron content in the ionosphere. Geomagnetism and Aeronomy, 55(6): 763–769, 2015. <a href="https://dx.doi.org/10.1134/S001679321506016X" target="_blank">doi:10.1134/S001679321506016X</a>.</li>
+          <li>A.A. Mylnikova, Yu.V. Yasyukevich, V.E. Kunitsyn, A.M. Padokhin. Variability of GPS/GLONASS differential code biases // Results in Physics, V. 5, P. 9–10. 2015. <a href="https://dx.doi.org/10.1016/j.rinp.2014.11.002" target="_blank">doi:10.1016/j.rinp.2014.11.002</a>.</li>
           <li>Yu.V. Yasyukevich, A.A. Mylnikova, A.S. Polyakova. Estimating the total electron content absolute value from the GPS/GLONASS data // Results in Physics, V. 5, P. 32–33. 2015. <a href="https://dx.doi.org/10.1016/j.rinp.2014.12.006" target="_blank">doi:10.1016/j.rinp.2014.12.006</a>.</li>
         </ul>
+        <p>Copyright &copy; 2017
+         Anna Mylnikova
+          &lt;<a href="mailto:manna@iszf.irk.ru">manna@iszf.irk.ru</a>&gt;,
+         Yuri Yasyukevich 
+          &lt;<a href="mailto:yu.yasyukevich@gnss-lab.org">yu.yasyukevich@gnss-lab.org</a>&gt;.
+        </p>
         <p>Please note, that free online access to acquired data is arranged only for educational and non-commercial research purposes.</p>
       </div>
       <a href="#abstec" class="toggle" onclick="toggleVisibility(this, 'abstec-description');">More...</a>
