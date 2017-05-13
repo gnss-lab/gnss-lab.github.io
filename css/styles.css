@@ -111,8 +111,7 @@ article > .subhead {
 }
 
 .code, .line-number {
-  font-family: "PT Mono", monospace;
-  font-size: 14px;
+  font-family: "Inconsolata", monospace;
 }
 
 .comment {
