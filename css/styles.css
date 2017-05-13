@@ -4,7 +4,7 @@
 
 *:link, *:visited {
   text-decoration: none;
-  color: rgb(0, 178, 255);
+  color: rgb(0, 73, 157);
 }
 
 body {
@@ -116,11 +116,11 @@ article > .subhead {
 }
 
 .comment {
-  color: #969896;
+  color: rgb(88, 89, 88);
 }
 
 .key-word {
-  color: rgb(255, 76, 0);   
+  color: rgb(158, 0, 73);
 }
 
 table.config td:nth-child(2) {
@@ -130,7 +130,6 @@ table.config td:nth-child(2) {
 
 td {
   padding-right: 10px;
-  font-size: 16px;
   line-height: 20px;
   vertical-align: top;
 }
@@ -138,7 +137,7 @@ td {
 td.line-number {
   width: 1%;
   min-width: 20px;
-  color: #969896;
+  color: rgb(88, 89, 88);
   text-align: right;
   padding-left: 10px;
 }

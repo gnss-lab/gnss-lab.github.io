@@ -7,9 +7,9 @@ function toggleVisibility(toggle, id) {
   
   if (description.className === hidden) {
     description.className = visible;
-    toggle.innerHTML = 'Less';
+    toggle.innerHTML = 'Hide';
   } else {
     description.className = hidden;
-    toggle.innerHTML = 'More...';
+    toggle.innerHTML = 'Details';
   }
 }
