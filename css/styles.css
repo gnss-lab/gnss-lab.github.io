@@ -68,6 +68,18 @@ nav {
   bottom: 0px;
 }
 
+main {
+  width: 100%;
+  overflow: auto;
+}
+
+section {
+  text-align: center;
+  border: solid 1px black;
+  width: 300px;
+  margin: auto;
+}
+
 article {
   position: relative;
   padding-left: 10px;
