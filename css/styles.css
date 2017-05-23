@@ -23,6 +23,7 @@ h1, h2 {
 
 h1 {
   text-align: center;
+  font-size: 3em;
 }
 
 header {
@@ -36,7 +37,7 @@ header > h1 {
 header > p {
   text-align: center;
   margin-top: 0px;
-  font-size: 1.1em;
+  font-size: 1.5em;
 }
 
 nav {
@@ -75,9 +76,25 @@ main {
 
 section {
   text-align: center;
-  border: solid 1px black;
-  width: 300px;
-  margin: auto;
+  border-radius: 20px;
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  background: rgb(255, 255, 255);
+  border: solid 1px rgb(192, 192, 192);
+}
+
+section h2 {
+  margin: 0;
+  padding: 5px;
+}
+
+section p {
+  margin: 0;
+  padding: 5px;
+  font-size: 1.2em;
+
 }
 
 article {
