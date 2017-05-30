@@ -94,7 +94,6 @@ section p {
   margin: 0;
   padding: 5px;
   font-size: 1.2em;
-
 }
 
 article {
@@ -182,8 +181,16 @@ footer, footer > a:link {
   color: rgb(100, 100, 100);
 }
 
+#tools-container {
+  width: 90%;
+  padding: 0;
+  margin: 0 auto;
+}
+
 /* tablets, laptops... */
 @media (min-width: 768px) { 
+  header {}
+
   nav > div {
     width: 768px;
     margin: auto;
@@ -198,7 +205,23 @@ footer, footer > a:link {
     max-width: 768px;
     margin: auto;
   }
-  
+
+  #tools-container {
+    width: 587px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  #tools-container section {
+    display: inline-block;
+    margin: 0;
+  }
+
+  #tools-container section:nth-child(0n+1) {
+    margin-right: 80px;
+    color: red;
+  }
+
   article {
     width: 754px;
     margin-left: auto;
