@@ -31,42 +31,44 @@ header {
 }
 
 header > h1 {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 header > p {
   text-align: center;
-  margin-top: 0px;
+  margin-top: 0;
   font-size: 1.5em;
 }
 
 nav {
   position: relative;
-  background: rgb(81, 81, 81);
-  border-bottom: solid 1px rgb(192, 192, 192);
-  padding: 0;
+  padding: 20px 0 0;
   margin: 0;
+}
+
+nav > div {
+  width: 95%;
+  margin: auto;
+  overflow: auto;
+  border-bottom: solid 1px rgb(192, 192, 192);
 }
 
 #nav-home, #nav-contact {
   display: inline-block;
   padding: 5px;
-  color: rgb(255, 255, 255);
 }
 
 #nav-home {
-  position: relative;
-  left: 2px;
+  float: left;
   font-size: 1.2em;
   font-weight: normal;
   text-align: left;
 }
 
 #nav-contact {
+  float: right;
   text-align: right;
-  position: absolute;
-  right: 5px;
-  bottom: 0px;
+  bottom: 0;
 }
 
 main {
@@ -170,7 +172,8 @@ td.line-number {
 }
 
 footer {
-  margin: 8px;
+  width: 95%;
+  margin: auto;
   padding: 20px;
   border-top: solid 1px rgb(192, 192, 192);
   text-align: center;
@@ -191,16 +194,15 @@ footer, footer > a:link {
 @media (min-width: 768px) { 
   header {}
 
-  nav > div {
-    width: 768px;
+  nav > div, footer {
+    width: 748px;
     margin: auto;
   }
-  
-  #nav-contact {
-    position: relative;
-    left: 606px;
+
+  footer {
+    margin-top: 20px;
   }
-  
+
   main {
     max-width: 768px;
     margin: auto;
