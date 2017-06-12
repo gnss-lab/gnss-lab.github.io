@@ -56,6 +56,7 @@ nav > div {
 #nav-home, #nav-contact {
   display: inline-block;
   padding: 5px;
+  line-height: 30px;
 }
 
 #nav-home {
