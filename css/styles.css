@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:700");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans+Caption:700");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata");
+
 * {
   box-sizing: border-box;
 }
@@ -100,33 +105,13 @@ section p {
 }
 
 article {
+  width: 95%;
   position: relative;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin: 10px 7px;
+  padding: 0;
+  margin: 0 auto;
   border: solid 1px rgb(192, 192, 192);
   border-radius: 5px;
   background: rgb(255, 255, 255);
-}
-
-article > h1 {
-  text-align: left;
-  margin-top: 5px;
-  margin-bottom: 0px;
-  font-weight: bold;
-}
-
-article > .subhead {
-  margin-top: 0px;
-  font-family: "PT Sans Caption";
-}
-
-.hidden {
-  display: none;
-}
-
-.visible {
-  display: block;
 }
 
 .toggle {
@@ -223,12 +208,6 @@ footer, footer > a:link {
   #tools-container section:nth-child(0n+1) {
     margin-right: 80px;
     color: red;
-  }
-
-  article {
-    width: 754px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   td.line-number {
