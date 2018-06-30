@@ -37,9 +37,9 @@ Just download and extract **tec-suite** archive wherever you want.
 
 ### Downloads
 
-* [Windows](https://github.com/gnss-lab/tec-suite/releases/download/v0.7.6/tec-suite-v0.7.6-win32.zip)
-* Linux: [x86_32](https://github.com/gnss-lab/tec-suite/releases/download/v0.7.6/tec-suite-v0.7.6-linux32.tgz) and [x86_64](https://github.com/gnss-lab/tec-suite/releases/download/v0.7.6/tec-suite-v0.7.6-linux64.tgz)
-* [macOS](https://github.com/gnss-lab/tec-suite/releases/download/v0.7.6/tec-suite-v0.7.6-macos.tgz) 
+* [Windows](https://github.com/gnss-lab/tec-suite/releases/download/v0.7.8/tec-suite-v0.7.8-win32.zip)
+* Linux: [x86_32](https://github.com/gnss-lab/tec-suite/releases/download/v0.7.8/tec-suite-v0.7.8-linux32.tgz) and [x86_64](https://github.com/gnss-lab/tec-suite/releases/download/v0.7.8/tec-suite-v0.7.8-linux64.tgz)
+* [macOS](https://github.com/gnss-lab/tec-suite/releases/download/v0.7.8/tec-suite-v0.7.8-macos.tgz) 
 
 ### Requirements
 
@@ -71,7 +71,7 @@ and suggestions.
 
 ## License
 
-Copyright (c) 2017 [Ilya Zhivetiev](mailto:i.zhivetiev@gnss-lab.org).
+Copyright (c) 2018 [Ilya Zhivetiev](mailto:i.zhivetiev@gnss-lab.org).
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
