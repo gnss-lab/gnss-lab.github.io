@@ -40,7 +40,7 @@ Once you get [tec-suite]({{ "/tec-suite" | absolute_url }}) out files, you can
 ### absolTEC.dia
 
 ```
-c:\dat\  path to .dat files, outputted by tec-suite
+c:\dat\  path to .dat files, outputted by tec-suite, not including year
 10       elevation angle cutoff
 2009     year for which evaluation is performed
 9        day of year for which evaluation is performed
@@ -83,10 +83,9 @@ You can report bugs or suggestions via [email](mailto:manna@iszf.irk.ru).
 
 Should a scientific publication evolve from the conducted estimation from **TayAbsTEC** software, the authors are requested to include citation of following publications, where **TayAbsTEC** algorithm is described:
 
+* Yu. Yasyukevich, A. Mylnikova, A. Vesnin. GNSS-Based Non-Negative Absolute Ionosphere Total Electron Content, its Spatial Gradients, Time Derivatives and Differential Code Biases: Bounded-Variable Least-Squares and Taylor Series. Sensors. 2020. https://www.mdpi.com/1424-8220/20/19/5702
 * Yu V. Yasyukevich, A.A. Mylnikova, V.E. Kunitsyn, and A.M. Padokhin. Influence of GPS/GLONASS differential code biases on the determination accuracy of the absolute total electron content in the ionosphere. Geomagnetism and Aeronomy, 55(6): 763–769, 2015. [doi:10.1134/S001679321506016X](https://dx.doi.org/10.1134/S001679321506016X).
-* A.A. Mylnikova, Yu.V. Yasyukevich, V.E. Kunitsyn, A.M. Padokhin. Variability of GPS/GLONASS differential code biases // Results in Physics, V. 5, P. 9–10. 2015. [doi:10.1016/j.rinp.2014.11.002](https://dx.doi.org/10.1016/j.rinp.2014.11.002).
-* Yu.V. Yasyukevich, A.A. Mylnikova, A.S. Polyakova. Estimating the total electron content absolute value from the GPS/GLONASS data // Results in Physics, V. 5, P. 32–33. 2015. [doi:10.1016/j.rinp.2014.12.006](https://dx.doi.org/10.1016/j.rinp.2014.12.006).
 
-Copyright © 2017 [Anna Mylnikova](mailto:manna@iszf.irk.ru), [Yuri Yasyukevich](mailto:yu.yasyukevich@gnss-lab.org).
+Copyright © 2017 [Anna Mylnikova](mailto:manna@iszf.irk.ru), [Yury Yasyukevich](mailto:yu.yasyukevich@gnss-lab.org).
 
 Please note, that free online access to acquired data is arranged only for educational and non-commercial research purposes.
